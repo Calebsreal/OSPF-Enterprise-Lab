@@ -9,7 +9,7 @@ Cisco Packet tracer lab that connects two networks using OSPF. Each network cont
 -Router-on-a-Stick configuration
 -Layer 3 switch SVIs for inter-VLAN routing
 -OSPF configuration with passive interfaces
--zVerification of end-to-end connectivity using ping
+-Verification of end-to-end connectivity using ping
 
 ##Mistakes / Troubleshooting :
 While conducting this lab I ran into an issue at one point that I couldn't get 2 routers to establish OSPF adjacency. I reviewed my configurations and saw that the wildcard mask for a specific network was incorrect. After correcting the wildcard mask, OSPF connectivity was successfully established and the network functioned as intended.
